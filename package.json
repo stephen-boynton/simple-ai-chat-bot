@@ -1,0 +1,26 @@
+{
+	"name": "simple-ai",
+	"version": "1.0.0",
+	"description": "A simple test of the api.ai",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon main.js"
+	},
+	"keywords": [
+		"ai",
+		"chatbot"
+	],
+	"author": "Stephen Boynton",
+	"license": "ISC",
+	"dependencies": {
+		"apiai": "^4.0.3",
+		"body-parser": "^1.17.2",
+		"express": "^4.15.4",
+		"mustache-express": "^1.2.5",
+		"socket.io": "^2.0.3"
+	},
+	"devDependencies": {
+		"nodemon": "^1.11.0"
+	}
+}

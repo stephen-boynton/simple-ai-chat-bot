@@ -1,0 +1,37 @@
+body {
+	height: 100vh;
+}
+
+h1 {
+	font-size: 18px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
+
+.lord-puddington {
+	margin-bottom: 50px;
+	border: 0.5px solid gray;
+	padding: 15px;
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pic {
+	background-image: url("/lp.jpg");
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+input {
+	width: 200px;
+	height: 25px;
+}
